@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Liga da Justiça de Zack Snyder</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/e21d4562a5.js" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    
+    <div id="area-cabecalho"> <!-- inico do cabeçalho-->
+
+        <div id="area-logo">
+            <img src="img/Liga(logo).png" alt="Logo da Liga da Justiça" width="300">
+        </div>
+        <div id="area-menu">
+            <a href="index.html"><i class="fas fa-home"></i></a> 
+            <a href="zacksnyder.html">Zack Snyder</a>
+            <a href="pensandoaliga.html">Pensando a Liga</a>
+            <a href="problema.html">O Problema</a>
+            <a href="snydercut.html">SnyderCut</a>
+            <a href="contato.html">Faça Parte do Whatsapp</a>
+            <a href="contato2.html">Faça Parte do Telegram</a>
+            
+        </div>
+        
+    </div><br> <!-- fim do cabeçalho-->
+
+                        
+    <h1>Realize seu Cadastro aqui</h1> 
+
+    <div class="info"><br><br><br><!-- Inicio do form de Whatsapp-->
+        <p>Venha fazer parte do nosso grupo do Telegram, onde trocamos ideias sobre o mundo nerd.</p><br><br>
+        <h2>Cadastro do Telegram</h2><br><br>
+    </div> 
+    
+    <div class="formulario">
+    <form>
+        <label for="telefone">Infome seu Nome:</label><br><br>
+        <input type="text" id="nome"> <br><br>
+        <label for="mensagem">Coloque seu @:</label><br><br>
+        <input type="text" id="@"><br><br>
+        <input type="button" value="ENVIAR" onclick="enviarnovajanela();"/>
+        <input type="button" value="LIMPAR" onclick="limpar();"/>
+    </form>
+    </div>
+    <script>
+        function enviarnovajanela(){
+        var numero= document.getElementById("nome").value;
+        var mensagem = document.getElementById("@").value;
+        var url = "https://t.me/+vckDV3uGVnkxZTQ5";
+        window.open(url, "_blank");
+    }
+    function limpar(){
+        document.getElementById("nome").value = "" ;
+        document.getElementById("@").value = "" ;
+    }
+    </script><br><br><!-- fechamento do form do Telegram -->
+
+
+<div id="rodape-contato">
+    <p>Todos os direitos reservados </p> <br>
+    <div class="r-sociais">
+        <a href="https://www.facebook.com/SnyderCutBrasil/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/SnyderCutBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/snydercut/" target="_blank"><i class="fab fa-instagram"></i></a>
+        
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
