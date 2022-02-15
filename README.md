@@ -3,4 +3,6 @@ Projeto Desenvolvido na cadeira de Introdução ao Web na qual desenvolvi um sit
 
 https://thialira.github.io/ProjetoSite/
 
+https://projeto-site-pi.vercel.app/index.html
+
 🚀 Let's code! 🚀
